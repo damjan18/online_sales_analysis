@@ -10,3 +10,6 @@ pm.add_product(Product("Sinalco", 1.30, 35))
 
 pm.all_products()
 pm.total_value()
+
+pm.remove_product("Pepsi")
+pm.all_products()
